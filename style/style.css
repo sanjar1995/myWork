@@ -306,4 +306,7 @@ img{
     .section-1_description{
         font-size: 18px;
     }
+    .navigation ul{
+        display: block !important;
+    }
 }
