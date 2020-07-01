@@ -1,0 +1,309 @@
+@import 'fonts.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 603px;
+}
+
+.header-content {
+    background: url(../images/мужская-фотосессия.jpg) no-repeat center /cover;
+}
+
+.navigation {
+    background: #1e2020;
+    padding: 23px 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.logo a {
+    padding: 7px 18px;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    font-size: 26px;
+    font-family: 'pt-sans';
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(133deg, #ffffff, #ffcb02) 1;
+}
+
+.logo span {
+    color: #ffcb02;
+
+
+}
+
+.logo a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul li a {
+    text-transform: uppercase;
+    margin: 0 27px;
+    font-family: 'pt-sans';
+    color: #ffffff;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: #ffcb02;
+    text-decoration: none;
+
+}
+
+.header-title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'pt-sans';
+    font-size: 60px;
+}
+
+.header-description {
+    color: #ffffff;
+    font-family: 'pt-sans';
+    text-align: justify;
+    font-size: 22px;
+    line-height: 27px
+
+}
+/* =============================================================MAIN======================================================================= */
+main{
+    background: #282929;
+}
+.section-1{
+    padding-top: 30px;
+}
+.section-1_title{
+    color: #d2a90b;
+    font-family: 'pt-sans';
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.section-1_title::before{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    margin-bottom: 8px;
+    background: #fff;
+    margin-left: auto;
+}
+.section-1_title::after{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    margin-top: 8px;
+    background: #fff;
+}
+.section-1_description{
+    margin-top: 21px;
+    font-family: 'montserrat-regular';
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 60px;
+    padding: 5px 5px;
+}
+.carousel-title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'montserrat-bold';
+    line-height: 24px
+}
+.carousel-title span{
+    color: #d3a90b;
+}
+
+.carousel-description{
+    font-family: 'montserrat-regular';
+    font-size: 18px;
+    color: #fff;
+    text-align: justify;
+    line-height: 24px
+}
+.carousel-control-prev,
+.carousel-control-next{
+    font-size: 30px;
+    color: #ffcb02;
+    opacity: 1;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover{
+    color: #ffcb02;
+}
+.carousel-control-prev:focus,
+.carousel-control-next:focus{
+    color: #ffcb02;
+    opacity: 1;
+}
+.carousel-text{
+    background: #282929;
+    border-radius: 6px;
+    padding: 15px 14px 11px 15px;
+}
+.history-slider{
+    background: #1f2020;
+    padding: 15px 0;
+}
+img{
+    width: 100%;
+}
+.carousel-item img{
+    border-radius: 6px
+}
+
+
+.button-1{
+    margin-bottom: 30px;
+}
+.tab-text-top h3{
+    color: #d2a90b;
+    font-family: 'pt-sans';
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.tab-text-top span{
+    text-transform: uppercase
+}
+.tab-text-top p{
+    color: #fff;
+    font-family: 'montserrat-regular';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+.tab-text a{
+    padding: 15px 30px 15px 30px;
+    font-family: 'montserrat-bold';
+    font-size: 16px;
+    background: #d3a90b;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase
+}
+.tab-text a:hover{
+    text-decoration: none
+}
+
+.nav-pills .nav-link{
+    padding: 14px 29px;
+    font-family: 'montserrat-regular';
+    color: #1f2020;
+    font-size: 16px;
+    border: none;
+    background: #fff;;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border-radius: 25px !important;
+    margin-bottom: 20px;
+}
+
+.nav-pills .nav-link.active {
+    background: #1e2020;
+    color: #fff;
+}
+.active{
+    display: flex !important;
+    
+}
+.tab-pane{
+
+    padding-bottom: 30px;
+}
+.tab-pane img{
+    border-radius: 6px;
+}
+.card{
+    margin-bottom: 20px;
+    border-radius: none;
+    border: none;
+}
+.btn-link{
+    font-family: 'montserrat-bold';
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    padding: 17px 15px 18px;
+    border-radius: 0;
+}
+.btn-link:focus{
+    box-shadow: none;
+    text-decoration: none;
+}
+.btn-link:hover{
+    text-decoration: none;
+    color: #fff
+
+}
+.card-header{
+    padding: 0;
+}
+.card-body{
+    color: #fff;
+    font-family: 'montserrat-regular';
+    font-size: 18px;
+    text-align: justify;
+    background: #1f2020;
+    border: #d3a90b 1px solid;
+    border-top: none;
+}
+.collapsed{
+    background: #1e2020;
+}
+.card-header button:not(.collapsed){
+    background: #d2a90b;
+    color: #fff
+    
+}
+.footer{
+    background: #1f2020;
+    height: 200px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+.footer-info{
+    height: 20%;
+}
+.footer .col-5{
+    flex: 0;
+}
+.footer-info a{
+    color: #fff;
+    font-family: 'pt-sans';
+    font-size: 20px;
+    text-transform: uppercase
+}
+.footer-info a:hover{
+    text-decoration: none;
+    color: white;
+    color: #ffcb02
+}
+.footer-info a:nth-child(1){
+    margin-right: 30px;
+}
+
+@media(max-width:770px){
+    .navigation ul{
+        margin-top: 20px;
+    }
+}
+@media(max-width:450px){
+    .header-content p{
+        font-size: 18px;
+    }
+    .section-1_description{
+        font-size: 18px;
+    }
+}
